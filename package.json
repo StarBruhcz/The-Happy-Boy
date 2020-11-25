@@ -1,0 +1,22 @@
+{
+  "name": "the-happy-boy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "Theboy.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/StarBruhcz/The-Happy-Boy.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/StarBruhcz/The-Happy-Boy/issues"
+  },
+  "homepage": "https://github.com/StarBruhcz/The-Happy-Boy#readme",
+  "dependencies": {
+    "discord.js": "^12.5.0"
+  }
+}
