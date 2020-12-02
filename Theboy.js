@@ -5,6 +5,9 @@ const prefix = '*';
 
 client.on('ready', () =>{
     console.log("READY");
+    setInterval(() => {
+        client.user.setActivity("to help we need you!",{type: "COMPETING"})
+    })
 });
 
 client.on('message', async message => {
@@ -26,7 +29,14 @@ client.on('message', async message => {
             .setURL(`https://reddit.com/r/${random}`);
 
             message.channel.send("Finding some **fresh** memes..");
-            await message.channel.send(MEME);
+            await  message.channel.send(MEME);
+    }
+
+    if(cmd == 'ban')
+    {
+        if (!message.member.hasPermission("BAN_MEMBERS")) return message.reply("Sorry boy but you cant ***ban*** anyone");
+        let Target = message.mentions.members.first();
+        let Reason = args.join(' ').slice(22);
     }
 });
 
