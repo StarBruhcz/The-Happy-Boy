@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/StarBruhcz/The-Happy-Boy#readme",
   "dependencies": {
-    "discord.js": "^12.5.0"
+    "discord.js": "^12.5.0",
+    "random-puppy": "^1.1.0"
   }
 }
