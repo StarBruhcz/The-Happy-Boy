@@ -37,6 +37,7 @@ client.on('message', async message => {
         if (!message.member.hasPermission("BAN_MEMBERS")) return message.reply("Sorry boy but you cant ***ban*** anyone");
         let Target = message.mentions.members.first();
         let Reason = args.join(' ').slice(22);
+        if (!Target.bannable) return message.reply
     }
 });
 
